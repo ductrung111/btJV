@@ -35,7 +35,7 @@ public class BankAccount {
             System.out.println("Rút thành công " + amount + ". Số dư còn lại: " + balance);
         }
     }
-    // Getter và Setter cho accountNumber (Cho phép đọc ghi ở mọi nơi qua phương thức public)
+    
     public int getAccountNumber() {
         return accountNumber;
     }
@@ -44,7 +44,7 @@ public class BankAccount {
         this.accountNumber = accountNumber;
     }
 
-    // Getter và Setter cho ownerName (Cho phép đọc và cập nhật)
+    
     public String getOwnerName() {
         return ownerName;
     }
@@ -53,7 +53,7 @@ public class BankAccount {
         this.ownerName = ownerName;
     }
 
-    // Chỉ cung cấp Getter cho balance để bảo mật tuyệt đối, ngăn chặn sửa đổi trực tiếp bên ngoài
+    
     public double getBalance() {
         return balance;
     }
